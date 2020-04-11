@@ -1,0 +1,59 @@
+def Test1():
+    #Opens the specified URL in a running instance of the specified browser.
+    Browsers.Item[btEdge].Navigate("https://www.advantageonlineshopping.com/#/category/Mice/5")
+    #Clicks the 'linkHrefusericon' control.
+    Aliases.browser.pageAdvantageShopping.linkHrefusericon.Click()
+    #Clicks the 'linkCreateNewAccount' control.
+    Aliases.browser.pageAdvantageShopping.linkCreateNewAccount.Click()
+    #Clicks the 'labelUsername' control.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.labelUsername.Click()
+    #Sets the text 'lenninlex1' in the 'textboxUsernameregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxUsernameregisterpage.SetText("lenninlex1")
+    #Clicks the 'textboxEmailregisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxEmailregisterpage.Click(48, 10)
+    #Enters '~6~4' in the 'textboxEmailregisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxEmailregisterpage.Keys("~6~4")
+    #Sets the text 'Lenninlex@gmail.com' in the 'textboxEmailregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxEmailregisterpage.SetText("Lenninlex@gmail.com")
+    #Clicks the 'labelPassword' control.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.labelPassword.Click()
+    #Sets the text Project.Variables.Password1 in the 'passwordboxPasswordregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.passwordboxPasswordregisterpage.SetText(Project.Variables.Password1)
+    #Enters '[Tab]' in the 'passwordboxPasswordregisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.passwordboxPasswordregisterpage.Keys("[Tab]")
+    #Sets the text Project.Variables.Password1 in the 'passwordboxConfirmPasswordregist' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.passwordboxConfirmPasswordregist.SetText(Project.Variables.Password1)
+    #Clicks the 'textboxFirstNameregisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxFirstNameregisterpage.Click(46, 19)
+    #Sets the text 'lennin alexander' in the 'textboxFirstNameregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxFirstNameregisterpage.SetText("lennin alexander")
+    #Enters '[Tab]' in the 'textboxFirstNameregisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxFirstNameregisterpage.Keys("[Tab]")
+    #Sets the text 'Martinez' in the 'textboxLastNameregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxLastNameregisterpage.SetText("Martinez")
+    #Clicks the 'labelPhoneNumber' control.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.labelPhoneNumber.Click()
+    #Sets the text '3124443784' in the 'textboxPhoneNumberregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxPhoneNumberregisterpage.SetText("3124443784")
+    #Selects the 'Colombia' item of the 'selectCountrylistboxregisterpage' select control.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.selectCountrylistboxregisterpage.ClickItem("Colombia")
+    #Clicks the 'textboxCityregisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxCityregisterpage.Click(63, 8)
+    #Sets the text 'Bogota' in the 'textboxCityregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxCityregisterpage.SetText("Bogota")
+    #Clicks the 'textboxAddressregisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxAddressregisterpage.Click(101, 12)
+    #Sets the text 'calle 57 B $ 80 B - 07 Sur' in the 'textboxAddressregisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxAddressregisterpage.SetText("calle 57 B $ 80 B - 07 Sur")
+    #Clicks the 'labelStateProvinceRegion' control.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.labelStateProvinceRegion.Click()
+    #Sets the text 'Bogota' in the 'textboxStateProvinceRegionregist' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxStateProvinceRegionregist.SetText("Bogota")
+    #Clicks the 'textboxPostalCoderegisterpage' object.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxPostalCoderegisterpage.Click(129, 1)
+    #Sets the text '110206' in the 'textboxPostalCoderegisterpage' text editor.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.textboxPostalCoderegisterpage.SetText("110206")
+    #Sets the Checked property of the 'checkboxIAgree' check box to True.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.checkboxIAgree.ClickChecked(True)
+    #Clicks the 'buttonRegister' control.
+    Aliases.browser.pageAdvantageShopping.sectionRegisterpage.article.buttonRegister.ClickButton()

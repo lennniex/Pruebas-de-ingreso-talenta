@@ -1,0 +1,21 @@
+def Test1():
+    #Opens the specified URL in a running instance of the specified browser.
+    Browsers.Item[btEdge].Navigate("https://www.advantageonlineshopping.com/#/category/Mice/5")
+    #Clicks the 'linkHrefusericon' control.
+    Aliases.browser.pageAdvantageShopping.linkHrefusericon.Click()
+    #Sets the text 'lenninlex' in the 'textboxUsername' text editor.
+    Aliases.browser.pageAdvantageShopping.textboxUsername.SetText("lenninlex")
+    #Clicks the 'labelPassword' control.
+    Aliases.browser.pageAdvantageShopping.labelPassword.Click()
+    #Sets the text Project.Variables.Password1 in the 'passwordboxPassword' text editor.
+    Aliases.browser.pageAdvantageShopping.passwordboxPassword.SetText(Project.Variables.Password1)
+    #Clicks the 'buttonSignIn' control.
+    Aliases.browser.pageAdvantageShopping.buttonSignIn.ClickButton()
+    #Clicks the 'imageFetchimageImageId5700' object.
+    Aliases.browser.pageAdvantageShopping.imageFetchimageImageId5700.Click(155, 103)
+    #Clicks the 'buttonAddToCart' control.
+    Aliases.browser.pageAdvantageShopping.buttonAddToCart.ClickButton()
+    #Clicks the 'buttonCheckout3999' control.
+    Aliases.browser.pageAdvantageShopping.buttonCheckout3999.ClickButton()
+    #Clicks the 'buttonNext' control.
+    Aliases.browser.pageAdvantageShopping.buttonNext.ClickButton()
