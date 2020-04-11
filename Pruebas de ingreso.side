@@ -1,0 +1,375 @@
+{
+  "id": "75cdce27-a62f-4ff5-8244-6278140928fe",
+  "version": "2.0",
+  "name": "Pruebas de ingreso",
+  "url": "https://www.advantageonlineshopping.com",
+  "tests": [{
+    "id": "d7b7c1db-8841-4d39-a237-6b2c514d18ed",
+    "name": "Crear usuario",
+    "commands": [{
+      "id": "ac27bea8-dae3-4500-832a-01c78cf09c55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6b44c61-9a74-43f8-ae12-cfcb63b5f853",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ada0536-1c46-48e4-a3e8-a0e100dafc7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=menuUser",
+      "targets": [
+        ["id=menuUser", "id"],
+        ["css=#menuUser", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7a80695-e023-4173-a810-3526dfbfede3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CREATE NEW ACCOUNT",
+      "targets": [
+        ["linkText=CREATE NEW ACCOUNT", "linkText"],
+        ["css=.create-new-account", "css:finder"],
+        ["xpath=//a[contains(text(),'CREATE NEW ACCOUNT')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CREATE NEW ACCOUNT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4779e0d-75fe-4b31-9f1b-bb6f9ab49365",
+      "comment": "",
+      "command": "click",
+      "target": "name=usernameRegisterPage",
+      "targets": [
+        ["name=usernameRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='usernameRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div/div/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div/sec-view/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80d47a7-4eaa-4eb5-832c-b67edb7836ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=usernameRegisterPage",
+      "targets": [
+        ["name=usernameRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='usernameRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div/div/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div/sec-view/div/input", "xpath:position"]
+      ],
+      "value": "lenninAlexander"
+    }, {
+      "id": "95db9fd1-2683-410e-ac65-61dca9782135",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegisterPage",
+      "targets": [
+        ["name=emailRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='emailRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div/div/sec-view[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/sec-view[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36023b6a-29c6-4409-ad20-66521dafd1b1",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegisterPage",
+      "targets": [
+        ["name=emailRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='emailRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div/div/sec-view[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/sec-view[2]/div/input", "xpath:position"]
+      ],
+      "value": "Lenninlex@gmail.com"
+    }, {
+      "id": "8c9628fd-383b-4b58-a0b6-22ceea2349a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=passwordRegisterPage",
+      "targets": [
+        ["name=passwordRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='passwordRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div/div[2]/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/sec-view/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "686577ef-1d25-42bb-9970-483c5613d2ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=passwordRegisterPage",
+      "targets": [
+        ["name=passwordRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='passwordRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div/div[2]/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/sec-view/div/input", "xpath:position"]
+      ],
+      "value": "$Samuel2014"
+    }, {
+      "id": "e9930a97-7507-4be7-b371-75de0cb8560d",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirm_passwordRegisterPage",
+      "targets": [
+        ["name=confirm_passwordRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='confirm_passwordRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div/div[2]/sec-view[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/sec-view[2]/div/input", "xpath:position"]
+      ],
+      "value": "$Samuel2014"
+    }, {
+      "id": "a2ebbd2b-b21e-4cd3-b166-971394fcf0d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .spliter:nth-child(2) > .ng-isolate-scope:nth-child(1) label",
+      "targets": [
+        ["css=div:nth-child(2) > .spliter:nth-child(2) > .ng-isolate-scope:nth-child(1) label", "css:finder"],
+        ["xpath=//div[@id='formCover']/div[2]/div/sec-view/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/sec-view/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'First Name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9eb18e4-9d94-4b2a-bead-9c49b74d422c",
+      "comment": "",
+      "command": "type",
+      "target": "name=first_nameRegisterPage",
+      "targets": [
+        ["name=first_nameRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='first_nameRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[2]/div/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/sec-view/div/input", "xpath:position"]
+      ],
+      "value": "lennin Alexander"
+    }, {
+      "id": "cb0bc3f7-c836-49db-9313-ae181bf0c145",
+      "comment": "",
+      "command": "type",
+      "target": "name=last_nameRegisterPage",
+      "targets": [
+        ["name=last_nameRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='last_nameRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[2]/div/sec-view[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/sec-view[2]/div/input", "xpath:position"]
+      ],
+      "value": "Martinez"
+    }, {
+      "id": "4af92647-0205-482c-ae81-c2566e1949da",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone_numberRegisterPage",
+      "targets": [
+        ["name=phone_numberRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//input[@name='phone_numberRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[2]/div[2]/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/sec-view/div/input", "xpath:position"]
+      ],
+      "value": "3124443784"
+    }, {
+      "id": "094f5690-a369-4767-bd67-574802efb8d9",
+      "comment": "",
+      "command": "click",
+      "target": "name=countryListboxRegisterPage",
+      "targets": [
+        ["name=countryListboxRegisterPage", "name"],
+        ["css=.in-focus", "css:finder"],
+        ["xpath=//select[@name='countryListboxRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div/sec-view/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea466fe0-3178-4d41-906d-bf291c9b18b8",
+      "comment": "",
+      "command": "select",
+      "target": "name=countryListboxRegisterPage",
+      "targets": [],
+      "value": "label=Colombia"
+    }, {
+      "id": "248c4010-a56a-475d-b646-15191d1026b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(45)",
+      "targets": [
+        ["css=option:nth-child(45)", "css:finder"],
+        ["xpath=//option[@value='object:195']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div/sec-view/div/select/option[45]", "xpath:idRelative"],
+        ["xpath=//option[45]", "xpath:position"],
+        ["xpath=//option[contains(.,'Colombia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86c715d6-02da-4793-9231-5655f30d6641",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .spliter:nth-child(2) > .ng-isolate-scope:nth-child(2) > .inputContainer",
+      "targets": [
+        ["css=div:nth-child(3) > .spliter:nth-child(2) > .ng-isolate-scope:nth-child(2) > .inputContainer", "css:finder"],
+        ["xpath=//div[@id='formCover']/div[3]/div/sec-view[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/sec-view[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "952e944a-1a94-49b3-938b-bcb1246064fd",
+      "comment": "",
+      "command": "click",
+      "target": "name=cityRegisterPage",
+      "targets": [
+        ["name=cityRegisterPage", "name"],
+        ["css=.ng-isolate-scope:nth-child(2) > .inputContainer > .in-focus", "css:finder"],
+        ["xpath=//input[@name='cityRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div/sec-view[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/sec-view[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f676adf-4ca7-41bd-8798-beae2062b039",
+      "comment": "",
+      "command": "type",
+      "target": "name=cityRegisterPage",
+      "targets": [
+        ["name=cityRegisterPage", "name"],
+        ["css=.ng-isolate-scope:nth-child(2) > .inputContainer > .in-focus", "css:finder"],
+        ["xpath=//input[@name='cityRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div/sec-view[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/sec-view[2]/div/input", "xpath:position"]
+      ],
+      "value": "Bogota"
+    }, {
+      "id": "49f447af-75ec-4a18-aa28-bfd834030efe",
+      "comment": "",
+      "command": "click",
+      "target": "name=addressRegisterPage",
+      "targets": [
+        ["name=addressRegisterPage", "name"],
+        ["css=.spliter:nth-child(3) .in-focus", "css:finder"],
+        ["xpath=//input[@name='addressRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div[2]/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/sec-view/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd7f9c5-f8af-4246-97bf-48a1294b107e",
+      "comment": "",
+      "command": "type",
+      "target": "name=addressRegisterPage",
+      "targets": [
+        ["name=addressRegisterPage", "name"],
+        ["css=.spliter:nth-child(3) .in-focus", "css:finder"],
+        ["xpath=//input[@name='addressRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div[2]/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/sec-view/div/input", "xpath:position"]
+      ],
+      "value": "Calle 57 B Sur# 80 B - 07"
+    }, {
+      "id": "ba0371ef-756f-4a0f-b7f6-8ece3ca750e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.spliter:nth-child(3) > .ng-isolate-scope:nth-child(2) label:nth-child(2)",
+      "targets": [
+        ["css=.spliter:nth-child(3) > .ng-isolate-scope:nth-child(2) label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='formCover']/div[3]/div[2]/sec-view[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/sec-view[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'State / Province / Region')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "673c6a8d-6e04-4b2b-ae48-a2a8c639c47d",
+      "comment": "",
+      "command": "type",
+      "target": "name=state_/_province_/_regionRegisterPage",
+      "targets": [
+        ["name=state_/_province_/_regionRegisterPage", "name"],
+        ["css=.ng-isolate-scope:nth-child(2) > .inputContainer > .in-focus", "css:finder"],
+        ["xpath=//input[@name='state_/_province_/_regionRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div[2]/sec-view[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/sec-view[2]/div/input", "xpath:position"]
+      ],
+      "value": "Bogota DC"
+    }, {
+      "id": "6fd0a37a-2f4f-4bf0-9e71-0534d2789b38",
+      "comment": "",
+      "command": "click",
+      "target": "name=postal_codeRegisterPage",
+      "targets": [
+        ["name=postal_codeRegisterPage", "name"],
+        ["css=.ng-isolate-scope:nth-child(1) .ng-untouched", "css:finder"],
+        ["xpath=//input[@name='postal_codeRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div[3]/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/sec-view/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d94c36c2-6f71-4df8-b50c-bdff0ae73496",
+      "comment": "",
+      "command": "type",
+      "target": "name=postal_codeRegisterPage",
+      "targets": [
+        ["name=postal_codeRegisterPage", "name"],
+        ["css=.ng-isolate-scope:nth-child(1) .ng-untouched", "css:finder"],
+        ["xpath=//input[@name='postal_codeRegisterPage']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/div[3]/div[3]/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/sec-view/div/input", "xpath:position"]
+      ],
+      "value": "110206"
+    }, {
+      "id": "becd4bce-c43c-452a-8bab-0612bc6939d7",
+      "comment": "",
+      "command": "click",
+      "target": "name=i_agree",
+      "targets": [
+        ["name=i_agree", "name"],
+        ["css=.ng-isolate-scope:nth-child(5) .ng-pristine", "css:finder"],
+        ["xpath=//input[@name='i_agree']", "xpath:attributes"],
+        ["xpath=//div[@id='formCover']/sec-view/div/input", "xpath:idRelative"],
+        ["xpath=//sec-form/div/div[2]/div/sec-view/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec022731-3927-41bc-b79c-8fccdd2465e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=register_btnundefined",
+      "targets": [
+        ["id=register_btnundefined", "id"],
+        ["css=#register_btnundefined", "css:finder"],
+        ["xpath=//button[@id='register_btnundefined']", "xpath:attributes"],
+        ["xpath=//section[@id='registerPage']/article/sec-form/div[2]/sec-sender/button", "xpath:idRelative"],
+        ["xpath=//div[2]/sec-sender/button", "xpath:position"],
+        ["xpath=//button[contains(.,'REGISTER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7bc8cb89-f813-40d7-836d-6321fad49fea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d7b7c1db-8841-4d39-a237-6b2c514d18ed"]
+  }],
+  "urls": ["https://www.advantageonlineshopping.com/"],
+  "plugins": []
+}
